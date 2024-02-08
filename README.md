@@ -8,7 +8,7 @@ Este projeto visa atender a desafios propostos com finalidade de obter um empreg
 - Selenium WebDriver
 - Cucumber
 - Rest-assured
-- JUnit Jupiter
+- JUnit5
 - JSON Simple
 
 
