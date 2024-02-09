@@ -6,6 +6,8 @@ Este projeto desenvolvido em Java na IDE Eclipse visa abordar desafios propostos
 ### 1) Contagem de letras 'a'
 Implementação de um algoritmo que conta a quantidade de letras 'a' na mensagem fornecida.
 
+		Mensagem fornecida: Eu sou a pessoa mais incrível que eu posso ser, e através do meu esforço vou conquistar o que já é MEU.
+
 ### 2) Sistema de Cadastro
 Desenvolvimento de um sistema de cadastro com funcionalidades completas de cadastro, exclusão, listagem e alteração de dados, utilizando uma lista para armazenamento.
 
