@@ -18,7 +18,7 @@ public class AlgoritimoA {
 			char caractere = mensagem.charAt(i);
 
 			// Verifica se o caractere atual é igual ao caractere desejado
-			if (caractere == caractereDesejado) {
+        if (caractere == caractereDesejado) {
 				// Incrementa o contador se for igual
 				contadorLetra++;
 			}
