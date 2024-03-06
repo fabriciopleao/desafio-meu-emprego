@@ -1,4 +1,4 @@
-# desafio-meu-emprego-logica
+# projeto-logica-java
 Este projeto desenvolvido em Java na IDE Eclipse visa abordar desafios propostos com o objetivo de aprimorar habilidades e alcançar oportunidades de emprego. A primeira fase concentra-se na lógica de programação, incluindo a implementação de algoritmos para resolver problemas específicos.
 
 
