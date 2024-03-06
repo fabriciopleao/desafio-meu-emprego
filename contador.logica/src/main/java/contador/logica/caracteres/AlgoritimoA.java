@@ -42,6 +42,7 @@ public class AlgoritimoA {
 		// imprime a quantidade
 		System.out.println(resultado);
 
+		
 	}
 
 }
