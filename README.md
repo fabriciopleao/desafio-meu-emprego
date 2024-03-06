@@ -1,33 +1,78 @@
-# desafio-meu-emprego
-Este projeto visa atender a desafios propostos com finalidade de obter um emprego. Inclui a implementação de algoritmos de contagem de letras e um sistema de cadastro básico, além da automação de testes em uma aplicação web e o desenvolvimento de uma API REST com Spring Boot.
+# projeto-logica-java
+Este projeto desenvolvido em Java na IDE Eclipse visa abordar desafios propostos com o objetivo de aprimorar habilidades e alcançar oportunidades de emprego. A primeira fase concentra-se na lógica de programação, incluindo a implementação de algoritmos para resolver problemas específicos.
 
 
-## Tecnologias utilizadas no projeto:
+## Lógica de Programação
+### 1) Contagem de caracteres em uma frase
+Implementação de um algoritmo que calcula a quantidade de vezes que determinado caractere aparece em uma frase.
 
-- Java
-- Selenium WebDriver
-- Cucumber
-- Rest-assured
-- JUnit5
-- JSON Simple
-
-
-## Fase 1: Lógica de Programação
-### 1) Contagem de letras 'a'
-Implementação de um algoritmo que conta a quantidade de letras 'a' na mensagem fornecida.
 
 ### 2) Sistema de Cadastro
 Desenvolvimento de um sistema de cadastro com funcionalidades completas de cadastro, exclusão, listagem e alteração de dados, utilizando uma lista para armazenamento.
 
-## Fase 2: Automação de UI - DemoQA
-### 1) Validação de Alerts - https://demoqa.com/alerts
-Automação de testes para validar todos os tipos de alerts disponíveis no site DemoQA.
 
-### 2) Validação de Modal - https://demoqa.com/modal-dialogs
-Implementação de testes automatizados para validar o modal presente em DemoQA Modal Dialogs.
+## Instruções de uso
+- Clone este repositório.
+- Abra o projeto em uma IDE Java (Eclipse de preferência).
+- Siga as instruções específicas de cada desafio dentro de sua respectiva pasta.
+- Execute o projeto conforme necessário para testar as funcionalidades implementadas.
 
-### 3) Validação de Formulário - https://demoqa.com/automation-practice-form
-Desenvolvimento de testes automatizados utilizando Page Objects para validar o formulário disponível em Automation Practice Form.
 
-## Fase 3: Desenvolvimento de API usando Spring
-Desenvolvimento de uma API REST utilizando Spring Boot. Os endpoints foram implementados e validados, garantindo que o status HTTP 200 seja retornado e que o corpo da resposta contenha a mensagem esperada.
+## Exemplo de uso contador
+### Aqui está um exemplo de como usar a função de contagem de letras 'a':
+
+	Linha 40 - informe a frase desejada
+	String frase = "Eu sou a pessoa mais incrível que eu posso ser, e através do meu esforço vou conquistar o que já é MEU.";
+
+	Linha 41 - informe a o caracter desejado
+	char letraA = 'a';
+
+	Console:
+	Número de vezes que a letra 'a' aparece: 6
+
+
+## Exemplo de uso sistema de cadastro
+### Aqui está um exemplo de como usar as funções de cadastro:
+
+ 	- Chame o metodo da classe GestorUsuarios utilizando o ponteiro "gestor". 
+
+   	- Função de cadastro.
+  	- Informe nome, idade, email e senha.
+	gestor.cadastrarUsuario("Fabio", 25, "teste@gmail.com", "teste123");
+	gestor.cadastrarUsuario("João", 33, "teste@gmail.com", "teste123");
+		
+	- Função de listar usuários cadastrados.
+	gestor.listarUsuario();
+		
+	- Função de alterar usuários
+	- Informe o nome que deseja alterar, novo nome, nova idade, novo email e nova senha (Caso queira alterar uma única informação, 		mantenha as mesmas informações).
+	gestor.alterarUsuario("Fabio", "Anderson", 40, "teste@gmail.com", "teste123");
+
+ 	- Função de listar usuários cadastrados.
+	gestor.listarUsuario();
+
+  	- Função de excluir usuário.
+   	- Informe o nome do usuário.
+	gestor.excluirUsuario("Anderson");
+
+ 	Console:
+  	USUÁRIO CADASTRADO COM SUCESSO! 
+	Nome: Fabio Idade: 25 Email: teste@gmail.com
+	===================================================
+	USUÁRIO CADASTRADO COM SUCESSO! 
+	Nome: João Idade: 33 Email: teste@gmail.com
+	===================================================
+	===================================================
+	Lista de usuários:
+	Nome - Fabio, Idade - 25, Email - teste@gmail.com
+	Nome - João, Idade - 33, Email - teste@gmail.com
+	===================================================
+	Usuário alterado com sucesso: Nome - Anderson, Idade - 40, Email - teste@gmail.com
+	===================================================
+	===================================================
+	Lista de usuários:
+	Nome - Anderson, Idade - 40, Email - teste@gmail.com
+	Nome - João, Idade - 33, Email - teste@gmail.com
+	===================================================
+	Usuário excluído com sucesso: Nome - Anderson
+	===================================================
