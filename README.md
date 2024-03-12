@@ -14,6 +14,8 @@ Desenvolvimento de um sistema de cadastro com funcionalidades completas de cadas
 
 ## Instruções de uso
 - Clone este repositório.
+  - Certifique-se de ter o JDK (17 ou 21) e Maven instalados.
+  - Configure as variáveis de ambiente (JAVA e MAVEN)
 - Abra o projeto em uma IDE Java (Eclipse de preferência).
 - Siga as instruções específicas de cada desafio dentro de sua respectiva pasta.
 - Execute o projeto conforme necessário para testar as funcionalidades implementadas.
