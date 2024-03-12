@@ -1,6 +1,6 @@
 package contador.logica.caracteres;
 
-public class AlgoritimoA {
+public class Algoritimo {
 
 	// LOGICA DE PROGRAMAÇÃO
 	// Algoritimo criado para verificar a quantidade de vezes que um determinado
