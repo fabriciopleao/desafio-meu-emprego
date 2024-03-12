@@ -25,5 +25,7 @@ Desenvolvimento de um sistema de cadastro com funcionalidades completas de cadas
 - Algoritimo -> Localizado a lógica e o método de execução
 
 #### Sistema de cadastro
-- 
+- Usuario -> Modelo de usuário utilizando atributos, método construtor e Getters and Setters.
+- GestorUsuarios -> Classe de serviço com todos os métodos do sistema (Cadastrar, listar, alterar e excluir)
+- CadastroApp -> Classe para executar as funções do sistema.
 
