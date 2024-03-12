@@ -18,7 +18,7 @@ public class AlgoritimoA {
 			char caractere = mensagem.charAt(i);
 
 			// Verifica se o caractere atual é igual ao caractere desejado
-        if (caractere == caractereDesejado) {
+			if (caractere == caractereDesejado) {
 				// Incrementa o contador se for igual
 				contadorLetra++;
 			}
@@ -32,7 +32,7 @@ public class AlgoritimoA {
 
 		// informe o caractere
 		char caractere = 'a';
-		
+
 		// informe a mensagem
 		String mensagem = "Eu sou a pessoa mais incrível que eu posso ser, e através do meu esforço vou conquistar o que já é MEU.";
 
@@ -41,7 +41,7 @@ public class AlgoritimoA {
 
 		// imprime a quantidade
 		System.out.println(resultado);
-		
+
 	}
 
 }

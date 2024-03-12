@@ -15,6 +15,9 @@ public class CadastroApp {
 		gestor.cadastrarUsuario("Fabio", 25, "teste@gmail.com", "teste123");
 		gestor.cadastrarUsuario("João", 33, "teste@gmail.com", "teste123");
 		
+		//Tentativa de cadastro sem preencher os dados obrigatórios.
+		gestor.cadastrarUsuario("", 0, "", "");
+		
 		//Listando usuários cadastrados
 		gestor.listarUsuario();
 		
@@ -24,6 +27,7 @@ public class CadastroApp {
 		
 		gestor.listarUsuario();
 		
+		//Excluindo usuários cadastrados
 		gestor.excluirUsuario("Anderson");
 
 	}
