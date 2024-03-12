@@ -1,13 +1,14 @@
 # projeto-logica-java
-Este projeto desenvolvido em Java na IDE Eclipse visa abordar desafios propostos com o objetivo de aprimorar habilidades e alcançar oportunidades de emprego. A primeira fase concentra-se na lógica de programação, incluindo a implementação de algoritmos para resolver problemas específicos.
+Projeto utilizando a linguagem Java para criar algoritimos lógicos destinados a dois sistemas diferentes.
 
 
-## Lógica de Programação
-### 1) Contagem de caracteres em uma frase
+## Sistemas lógicos
+
+### Contador de caracteres
 Implementação de um algoritmo que calcula a quantidade de vezes que determinado caractere aparece em uma frase.
 
 
-### 2) Sistema de Cadastro
+### Sistema de Cadastro
 Desenvolvimento de um sistema de cadastro com funcionalidades completas de cadastro, exclusão, listagem e alteração de dados, utilizando uma lista para armazenamento.
 
 
